@@ -68,18 +68,8 @@ print('TargetLanguageCode: ' + result.get('TargetLanguageCode'))
 text = result.get('TranslatedText')
 #g83PEV5jCzdklYCBXHRP4X6NchZ/7LhYRimb738C aws translate access key
 
-# id for aws   AKIASUZWOYXIE754NOWI
 
-def getWeather(city):
-    # API CONNECTION is our way to communicate with server
-    weatherKey = '60d0bd9d21da6aa23ae5d4ec2bfb15e9'  # need to have unique api key from each website in JSON
-    url = 'https://api.openweathermap.org/data/2.5/weather?'  # q={city name}&appid={API key}
-    params = {'APPID': weatherKey, 'q': city, 'units': 'imperial'}
-    response = requests.get(url, params=params)
-    weather = response.json()
-    label2['text'] = ResponseWeather(weather)
-    # print(ResponseWeather(weather))
-   """
+"""
 
 customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("blue")  # Themes: "blue" (standard), "green", "dark-blue"
