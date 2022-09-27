@@ -66,7 +66,7 @@ print('SourceLanguageCode: ' + result.get('SourceLanguageCode'))
 print('TargetLanguageCode: ' + result.get('TargetLanguageCode'))
 
 text = result.get('TranslatedText')
-#g83PEV5jCzdklYCBXHRP4X6NchZ/7LhYRimb738C aws translate access key
+
 
 
 """
